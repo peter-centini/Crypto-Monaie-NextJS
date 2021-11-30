@@ -28,11 +28,11 @@ export default function Layout({ children, page }) {
         </div>
         <div className="pt-7">
           <Image
-            src="/main3.jpg"
+            src="/btc.jpg"
             alt="header-pic"
             width="400"
             height="25"
-            className="rounded-3l object-cover"
+            className="rounded-3xl object-cover"
             quality={100} />
         </div>
       </header>
@@ -41,7 +41,7 @@ export default function Layout({ children, page }) {
       <footer className="p-2">
         <div className="">
         <Image
-          src="/main3.jpg"
+          src="/btc.jpg"
           alt="footer-pic"
           width="1000"
           height="30"
