@@ -28,7 +28,7 @@ export default function Currency({ res }) {
 // SSR rendue a la demande 
 export async function getServerSideProps({ query }) {
     //const id = query.id
-    console.log(query.currency);
+    //console.log(query.currency);
     try {
         const res = await fetch(
         `https://api.nomics.com/v1/currencies?key=c42ee402d588ced13ab5b4b6cd0a2617d9bb3c0d&ids=${query.currency}&=id,name,logo_url,description,reddit_url`
