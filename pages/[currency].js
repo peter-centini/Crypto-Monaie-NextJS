@@ -1,16 +1,16 @@
-
+import Layout from "../components/Layout"
 
 export default function Currency({ res }) {
     
     
     return(
-        <layout page={"Page" + res.name}>
-            <div className="relative hover:shadows-md p-8 border border-blue-300 sm:rounded-3xl bg-blue-100 md:w-auto flex-1 mx-5">
+        <Layout page={"Page" + res.name}>
+            <div className="relative mb-8 mt-6 hover:shadows-md p-8 border border-blue-300 sm:rounded-3xl bg-green-100 md:w-auto flex-1 mx-15">
                 <div className="text-center">
                     <img
                     src={res.logo_url}
                     alt={res.name}
-                    className="w-20 h-20 mx-auto mb-6"
+                    className="w-20 h-20 mx-auto mb-9"
                     />
                 </div>
                 <h2 className="text-2xl mb-6 uppercase tracking-wider">{res.name}</h2>
@@ -20,7 +20,7 @@ export default function Currency({ res }) {
                     </a>
                 </p>
             </div>
-        </layout>
+        </Layout>
        
     );
 }
@@ -28,10 +28,10 @@ export default function Currency({ res }) {
 // SSR rendue a la demande 
 export async function getServerSideProps({ query }) {
     //const id = query.id
-    //const console.log(query.currency);
+    console.log(query.currency);
     try {
         const res = await fetch(
-        `https://api.nomics.com/v1/currencies?key=c42ee402d588ced13ab5b4b6cd0a2617d9bb3c0d&ids=BTC&attributes=id,name,logo_url,description,reddit_url`
+        `https://api.nomics.com/v1/currencies?key=c42ee402d588ced13ab5b4b6cd0a2617d9bb3c0d&ids=${query.currency}&=id,name,logo_url,description,reddit_url`
         );   
         const result = await res.json();
 

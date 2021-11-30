@@ -14,13 +14,13 @@ export default function Layout({ children, page }) {
         <h1 className="text-5xl mb-3">CRYPTO MONAIE</h1>
         <div className="inline-grid grid-cols-2 gap-x-10 p-5">
           <Link href="/">
-            <button className="bg-green-200 p-3 m-2 rounded-3xl hover:shadow-md
+            <button className="bg-green-100 p-3 m-2 rounded-3xl hover:shadow-md
                    border-2 border-blue-300">
               Accueil
             </button>
           </Link>
           <Link href="/about">
-            <button className="bg-green-200 p-4 m-2 rounded-3xl hover:shadow-md
+            <button className="bg-green-100 p-4 m-2 rounded-3xl hover:shadow-md
                    border-2 border-blue-300">
               À propos
             </button>
