@@ -28,7 +28,7 @@ export default function Layout({ children, page }) {
         </div>
         <div className="pt-7">
           <Image
-            src="/main.jpg"
+            src="/main3.jpg"
             alt="header-pic"
             width="400"
             height="25"
@@ -41,7 +41,7 @@ export default function Layout({ children, page }) {
       <footer className="p-2">
         <div className="">
         <Image
-          src="/main.jpg"
+          src="/main3.jpg"
           alt="footer-pic"
           width="1000"
           height="30"
