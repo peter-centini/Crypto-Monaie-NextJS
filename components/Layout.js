@@ -8,6 +8,7 @@ export default function Layout({ children, page }) {
 
     <div className="bg-indigo-100 pt-5 text-center min-h-screen">
       <Head>
+        <link rel="icon" href="/favicon.ico" />
         <title>{page}</title>
       </Head>
       <header className="container-lg">
