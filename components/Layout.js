@@ -50,7 +50,7 @@ export default function Layout({ children, page }) {
           quality={100} />
           </div>
           <ul className="pt-10 pb-4 flex justify-around">
-            <li>À propos</li>
+            <Link href="/about"><li className="cursor-pointer">À propos</li></Link>
             <li>Qui sommes-nous</li>
             <li>By Peter --2021--</li>
           </ul>
