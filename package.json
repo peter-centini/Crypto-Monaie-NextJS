@@ -1,7 +1,7 @@
 {
   "name": "crypto-monaie",
   "private": true,
-  "homepage": " https://peter-centini.github.io/React-Drapeau/",
+  "homepage": "https://peter-centini.github.io/Crypto-Monaie-NextJS/",
   "scripts": {
     "dev": "next dev ",
     "build": "next build",
