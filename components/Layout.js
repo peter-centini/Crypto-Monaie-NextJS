@@ -54,7 +54,7 @@ export default function Layout({ children, page }) {
             <li>Qui sommes-nous</li>
             <li>By Peter --2021--</li>
           </ul>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          <p className="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Labore minus aliquam perferendis, nemo provident porro quaerat 
             aperiam similique dolorem vero.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
