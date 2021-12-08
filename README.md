@@ -27,4 +27,4 @@ You can start to make changes the page by modifying `pages/index.js`, `pages/abo
 
 good code everyone
 
-/Users/peter/GitHub/NextJs-Crypto-Monaie/screen.png
+https://github.com/peter-centini/Crypto-Monaie-NextJS/blob/main/screen.png
