@@ -26,5 +26,8 @@ You can start to make changes the page by modifying `pages/index.js`, `pages/abo
 
 
 good code everyone
-
+<p align="center">
+  <img src="github.com/peter-centini/Crypto-Monaie-NextJS/blob/main/screen.png" width="350" title="project img">
+  
+</p>
 https://github.com/peter-centini/Crypto-Monaie-NextJS/blob/main/screen.png
